@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { student } from './data/StudentsDb';
+import StudentTable from './components/StudentTable';
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
       <table>
         <tr>
           <td>
-            
+            <StudentTable students={students}/>
           </td>
         </tr>
       </table>

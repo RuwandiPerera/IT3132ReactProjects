@@ -1,4 +1,4 @@
-import '..assets/css/compo.css';
+import '..assets/css';
 export default function StudentTable(prosps){
 
     return(
